@@ -13,8 +13,9 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 //import pages here
 import Home from './pages/home';
-import Projects from './pages/projects';
+import Coding from './pages/coding';
 import Contact from './pages/contact';
+import GraphicArt from './pages/graphicart'
 
 
 
@@ -22,8 +23,9 @@ ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={Home} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/Coding" component={Coding} />
+            <Route exact path="/GraphicArt" component={GraphicArt} />
+            <Route exact path="/Contact" component={Contact} />
         </div>
     </Router>
     , document.getElementById('root'));

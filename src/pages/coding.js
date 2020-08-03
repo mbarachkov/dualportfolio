@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 
-function Projects() {
+function Coding() {
     return (
         <div>
             <Navbar />
@@ -10,4 +10,4 @@ function Projects() {
 }
 
 
-export default Projects;
+export default Coding;
